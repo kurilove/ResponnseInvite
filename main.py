@@ -28,6 +28,9 @@ async def main():
                 print(f"{users.user.first_name}Принят в канал, диалог уже есть ")
                 await asyncio.sleep(5)
                 
+        # async for dialog in app.get_dialogs():
+        #     print(dialog.chat.first_name or dialog.chat.title, dialog.chat.id)
+        
         # async for dialog in app.get_chat_history(from_chat):
         #     print(dialog)
 
