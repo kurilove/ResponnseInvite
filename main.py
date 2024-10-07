@@ -6,10 +6,10 @@ from rich import console
 
 api_id = 10999414
 api_hash = "c25eb4e3283f5fad6f0397e0463b4eef"
-channel_id = -1001761095736
+channel_id = -10017610
 mes_id = 357
 message = "тест"
-from_chat = '@spamtext2'
+from_chat = ''
 
 # залупа
 while True:
