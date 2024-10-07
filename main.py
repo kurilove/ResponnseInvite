@@ -22,6 +22,12 @@ async def main():
                 await app.approve_chat_join_request(chat_id=channel_id, user_id=users.user.id)
                 print(f"{users.user.first_name}Принят в канал, сообщение отправлено ")
                 await asyncio.sleep(5)
+            else:
+                await asyncio.sleep(15)
+                await app.approve_chat_join_request(chat_id=channel_id, user_id=users.user.id)
+                print(f"{users.user.first_name}Принят в канал, диалог уже есть ")
+                await asyncio.sleep(5)
+                
         # async for dialog in app.get_chat_history(from_chat):
         #     print(dialog)
 
