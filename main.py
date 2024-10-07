@@ -2,7 +2,6 @@ import asyncio
 import time
 
 from pyrogram import Client
-from rich import console
 
 api_id = 10999414
 api_hash = "c25eb4e3283f5fad6f0397e0463b4eef"
